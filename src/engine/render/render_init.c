@@ -78,3 +78,7 @@ void render_init_quad(u32 *vao, u32 *vbo, u32 *ebo) {
 
 	glBindVertexArray(0);
 }
+
+void render_init_color_texture(u32 *texture);
+void render_init_shaders(Render_State_Internal *state);
+u32 render_shader_create(const char *path_vert, const char *path_frag);
