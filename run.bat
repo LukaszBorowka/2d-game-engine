@@ -1,2 +1,2 @@
 @echo off
-MinGW-build && 2d-game
+MinGW-build && echo. && echo Starting... && echo. && 2d-game
